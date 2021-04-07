@@ -140,6 +140,7 @@ input, select, textarea {
 			color: inherit;
 			text-decoration: none;
 			border: 0;
+			text-align: center;
 		}
 
 	h2 {
@@ -1719,7 +1720,7 @@ input, select, textarea {
 /* Section/Article */
 
 	section.special, article.special {
-		text-align: center;
+		text-align: left;
 	}
 
 	header.major {
@@ -1730,7 +1731,7 @@ input, select, textarea {
 		margin-bottom: 5em;
 		padding-top: 7em;
 		position: relative;
-		text-align: center;
+		text-align: left;
 	}
 
 		header.special:before, header.special:after {
@@ -3339,3 +3340,9 @@ input, select, textarea {
 			}
 
 	}
+
+.flex-parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
