@@ -1525,12 +1525,12 @@ input[type=email] {
 .icon.circle:hover {
   top: -0.2em;
 }
-.icon.circle.fa-twitter {
-  background: #70aecd;
+.icon.circle.fa-linkedin {
+  background: #006192;
   color: #fff;
 }
-.icon.circle.fa-twitter:hover {
-  background: #7fb7d2;
+.icon.circle.fa-linkedin:hover {
+  background: #006fa6;
 }
 .icon.circle.fa-facebook-f {
   background: #7490c3;
