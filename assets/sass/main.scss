@@ -155,6 +155,7 @@ $pattern-background-size: 25em;
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		text-transform: uppercase;
+		text-align: center;
 
 		a {
 			color: inherit;
@@ -279,7 +280,7 @@ $pattern-background-size: 25em;
 
 	section, article {
 		&.special {
-			text-align: center;
+			text-align: left;
 		}
 	}
 
@@ -292,7 +293,7 @@ $pattern-background-size: 25em;
 			margin-bottom: 5em;
 			padding-top: 7em;
 			position: relative;
-			text-align: center;
+			text-align: left;
 
 			&:before,
 			&:after {

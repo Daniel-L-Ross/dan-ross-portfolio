@@ -131,6 +131,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.75em;
   margin-bottom: 1em;
   text-transform: uppercase;
+  text-align: center;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   color: inherit;
@@ -1334,7 +1335,7 @@ blockquote {
 
 /* Section/Article */
 section.special, article.special {
-  text-align: center;
+  text-align: left;
 }
 
 header.major {
@@ -1344,7 +1345,7 @@ header.special {
   margin-bottom: 5em;
   padding-top: 7em;
   position: relative;
-  text-align: center;
+  text-align: left;
 }
 header.special:before, header.special:after {
   border-bottom: solid 1.5px;
