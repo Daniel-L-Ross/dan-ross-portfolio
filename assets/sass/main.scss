@@ -832,7 +832,7 @@ $pattern-background-size: 25em;
 
 					a {
 						border: solid 1px transparent;
-						color: inherit;
+						color: #fff;
 						display: inline-block;
 						line-height: 1em;
 						padding: 0.6em 0.75em;
@@ -1547,6 +1547,20 @@ $pattern-background-size: 25em;
 
 	}
 
+.flex-parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.header-logo {
+	max-height: 3em;
+}	
+
+.header-link {
+	border: none
+}
+
 /* Mobile */
 
 	@include breakpoint('<=mobile') {
@@ -1769,3 +1783,4 @@ $pattern-background-size: 25em;
 			}
 
 	}
+
