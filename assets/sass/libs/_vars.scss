@@ -24,7 +24,7 @@
 		border:			transparentize(#7c8081, 0.8),
 
 		header: (
-			bg:			#fff,
+			bg:			linear-gradient(to bottom right, rgb(81,55,81), rgb(148,138,131)),
 			fg:			inherit,
 			alt-bg:		transparent,
 			alt-fg:		#fff
@@ -69,6 +69,11 @@
 
 		twitter: (
 			bg:			#70aecd,
+			fg:			#fff
+		),
+
+		linkedin: (
+			bg:			#006192,
 			fg:			#fff
 		),
 
