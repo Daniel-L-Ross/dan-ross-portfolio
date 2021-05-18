@@ -28,7 +28,7 @@
 			<nav id="nav">
 				<ul>
 					<li class="current"><a class="scrolly" href="#cta">Contact</a></li>
-					<li class="submenu">
+					<!-- <li class="submenu">
 						<a href="#">More</a>
 						<ul>
 							<li><a href="left-sidebar.html">Left Sidebar</a></li>
@@ -46,7 +46,7 @@
 								</ul>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 				</ul>
 			</nav>
 		</header>
@@ -67,7 +67,7 @@
 				<p><strong>Full Stack Software Developer</strong></p>
 				<footer>
 					<ul class="buttons stacked">
-						<li><a href="#main" class="button fit scrolly">Learn More</a></li>
+						<li><a href="#scroll-here" class="button fit scrolly">Learn More</a></li>
 					</ul>
 				</footer>
 			</div>
@@ -78,23 +78,8 @@
 		<article id="main">
 			<header class="special container flex-parent">
 				<span class="icon solid fa-chart-bar"></span>
-				<h2>Catchy Something here</h2>
-				<!-- <p>Turns out <strong>Twenty</strong> was the best I could come up with. Anyway, lame name aside,
-					<br />
-					it's minimally designed, fully responsive, built on HTML5/CSS3,
-					and, like all my stuff,
-					<br />
-					released for free under the <a href="http://html5up.net/license">Creative Commons Attribution
-						3.0</a> license. Have fun!
-				</p> -->
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus doloribus 
-					<br />
-					molestias quod ab earum voluptatem officia excepturi voluptatum nostrum ratione 
-					<br />
-					quos dolorum numquam, quia animi recusandae harum eaque qui. Beatae?
-				</p>
+				<div id="scroll-here"></div>
 			</header>
-			<!-- One -->
 			<section class="wrapper style2 container special-alt">
 				<div class="row gtr-50">
 					<div class="col-8 col-12-narrower">
@@ -118,16 +103,7 @@
 
 					</div>
 					<div class="col-4 col-12-narrower imp-narrower">
-
-						<!-- <ul class="featured-icons">
-							<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
-							<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
-							<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
-							<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
-							<li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
-							<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
-						</ul> -->
-
+						<img src="/images/dan_brick.jpg" alt="Man in grey suit in front of brick wall" class="photo">
 					</div>
 				</div>
 			</section>
@@ -140,10 +116,11 @@
 						<section>
 							<span class="icon solid featured fa-check"></span>
 							<header>
-								<h3>This is Something</h3>
+								<h3>Eager to Learn</h3>
 							</header>
-							<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
-								dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+							<p>As a developer, I know that my first thought is not always the best solution. I love
+								hearing my teammates' perspectives and finding new ways to solve problems.
+							</p>
 						</section>
 
 					</div>
@@ -152,10 +129,11 @@
 						<section>
 							<span class="icon solid featured fa-check"></span>
 							<header>
-								<h3>Also Something</h3>
+								<h3>People First</h3>
 							</header>
-							<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
-								dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+							<p>My social work background helps me to see people, not problems. I'm eager to support
+								teammates, and geared to hear a client's needs so we can find solutions.
+							</p>
 						</section>
 
 					</div>
@@ -164,10 +142,11 @@
 						<section>
 							<span class="icon solid featured fa-check"></span>
 							<header>
-								<h3>Probably Something</h3>
+								<h3>Team Player</h3>
 							</header>
-							<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo suscipit
-								dolor nec nibh. Proin a ullamcorper elit, et sagittis turpis. Integer ut fermentum.</p>
+							<p>Being part of a team is one of my favorite parts of working as a developer. I love
+								supporting my teammates, and knowing a group of experts has my back makes my job easier!
+							</p>
 						</section>
 
 					</div>
@@ -182,21 +161,29 @@
 				</header>
 
 				<div class="row">
-					<div class="col-6 col-12-narrower">
+					<!-- class to create 1/2 sections class="col-6 col-12-narrower" -->
+					<div>
 
 						<section>
-							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+							<div class="photo_background">
+								<a href="https://parkbook-client.herokuapp.com/"><img class="photo"
+										src="images/parkbook_screenshot_2.png" alt="" /></a>
+							</div>
 							<header>
 								<h3>Parkbook</h3>
 							</header>
 							<p>Parkbook provides a simple and intuitive way to discover what nearby parks have to offer.
-								There are over 100 parks in Nashville, and Parkbook helps users filter parks by feature so they can find a new Park to visit.
-								<br> This is a single-page React application with full CRUD functionality. It utilizes JSON Server for data storage. 
+								There are over 100 parks in Nashville, and Parkbook helps users filter parks by feature
+								so they can find a new park to visit.
+								<br> This is a single-page React application with full CRUD functionality. It utilizes
+								JSON Server for data storage.
 							</p>
+							<a href="https://github.com/Daniel-L-Ross/parkbook">Github Repo</a> <br>
+							<a href="https://parkbook-client.herokuapp.com/">Deployed site</a>
 						</section>
 
 					</div>
-					<div class="col-6 col-12-narrower">
+					<!-- <div class="col-6 col-12-narrower">
 
 						<section>
 							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
@@ -208,9 +195,9 @@
 								lorem ipsum dolore.</p>
 						</section>
 
-					</div>
+					</div> -->
 				</div>
-				<div class="row">
+				<!-- <div class="row">
 					<div class="col-6 col-12-narrower">
 
 						<section>
@@ -237,13 +224,13 @@
 						</section>
 
 					</div>
-				</div>
+				</div> -->
 
-				<footer class="major">
+				<!-- <footer class="major">
 					<ul class="buttons">
 						<li><a href="#" class="button">See More</a></li>
 					</ul>
-				</footer>
+				</footer> -->
 
 			</section>
 
@@ -258,9 +245,10 @@
 			</header>
 			<footer>
 				<ul class="icons">
-					<li><a href="#" class="icon brands circle fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="#" class="icon brands circle fa-google-plus-g"><span class="label">Google+</span></a></li>
-					<li><a href="#" class="icon brands circle fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/dan-l-ross/" class="icon brands circle fa-linkedin"><span
+								class="label">LinkedIn</span></a></li>
+					<li><a href="https://github.com/Daniel-L-Ross" class="icon brands circle fa-github"><span
+								class="label">Github</span></a></li>
 				</ul>
 			</footer>
 
@@ -268,10 +256,10 @@
 
 		<!-- Footer -->
 		<footer id="footer">
-			
+
 
 			<ul class="copyright">
-				<li>&copy; Untitled</li>
+				<li>&copy; Dan Ross</li>
 				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 			</ul>
 

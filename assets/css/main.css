@@ -1468,7 +1468,7 @@ input[type=email] {
 }
 .image.fit img {
   display: block;
-  width: 100%;
+  max-width: 100%;
 }
 .image.featured {
   display: block;
@@ -1477,6 +1477,16 @@ input[type=email] {
 .image.featured img {
   display: block;
   width: 100%;
+}
+
+.photo {
+  max-width: 100%;
+  box-shadow: 0px 0px 10px #fff;
+}
+
+.photo_background {
+  background-image: url("images/overlay.png");
+  padding: .5em .5em .2em .5em;
 }
 
 /* Icon */
